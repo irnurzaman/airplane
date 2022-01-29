@@ -1,4 +1,4 @@
-import 'package:bwa_airplane/ui/pages/splash.dart';
+import 'package:bwa_airplane/ui/pages/get_started.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Airplane',
-      home: SplashPage(),
+      home: GetStarted(),
     );
   }
 }
