@@ -1,4 +1,4 @@
-import 'package:bwa_airplane/ui/pages/splash_page.dart';
+import 'package:bwa_airplane/ui/pages/splash.dart';
 import 'package:flutter/material.dart';
 
 void main() {
