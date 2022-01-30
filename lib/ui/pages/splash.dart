@@ -39,9 +39,8 @@ class _SplashPageState extends State<SplashPage> {
             ),
             Text(
               'AIRPLANE',
-              style: whiteText.copyWith(
-                fontSize: 32,
-                fontWeight: medium,
+              style: bannerText.copyWith(
+                color: white,
                 letterSpacing: 0.32 * 32,
               ),
             )

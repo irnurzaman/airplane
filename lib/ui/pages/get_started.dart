@@ -26,17 +26,14 @@ class GetStarted extends StatelessWidget {
               children: [
                 Text(
                   'Fly Like a Bird',
-                  style: whiteText.copyWith(fontWeight: semiBold, fontSize: 32),
+                  style: bannerText.copyWith(color: white),
                 ),
                 const SizedBox(
                   height: 10,
                 ),
                 Text(
                   'Explore new world with us and let yourself get an amazing experiences',
-                  style: greyText.copyWith(
-                    fontWeight: light,
-                    fontSize: 16,
-                  ),
+                  style: subtitleText.copyWith(color: white),
                   textAlign: TextAlign.center,
                 ),
                 Container(
@@ -53,10 +50,7 @@ class GetStarted extends StatelessWidget {
                     ),
                     child: Text(
                       'Get Started',
-                      style: whiteText.copyWith(
-                        fontWeight: medium,
-                        fontSize: 18,
-                      ),
+                      style: buttonText.copyWith(color: white),
                     ),
                   ),
                 )

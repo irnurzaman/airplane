@@ -16,15 +16,16 @@ Color orange = const Color(0xffFFA235);
 Color white = Colors.white;
 
 // Font theme
-TextStyle blackText = GoogleFonts.poppins(color: black);
-TextStyle whiteText = GoogleFonts.poppins(color: white);
-TextStyle greyText = GoogleFonts.poppins(color: grey);
-TextStyle greenText = GoogleFonts.poppins(color: green);
-TextStyle redText = GoogleFonts.poppins(color: red);
-TextStyle purpleText = GoogleFonts.poppins(color: purple);
-
 FontWeight light = FontWeight.w300;
 FontWeight regular = FontWeight.w400;
 FontWeight medium = FontWeight.w500;
 FontWeight semiBold = FontWeight.w600;
 FontWeight bold = FontWeight.w700;
+
+TextStyle bannerText = GoogleFonts.poppins(fontSize: 32, fontWeight: semiBold);
+TextStyle titleText = GoogleFonts.poppins(fontSize: 24, fontWeight: semiBold);
+TextStyle subtitleText = GoogleFonts.poppins(fontSize: 16, fontWeight: light);
+TextStyle sectionText = GoogleFonts.poppins(fontSize: 18, fontWeight: medium);
+TextStyle subsectionText = GoogleFonts.poppins(fontSize: 14, fontWeight: light);
+TextStyle readText = GoogleFonts.poppins(fontSize: 14, fontWeight: regular);
+TextStyle buttonText = GoogleFonts.poppins(fontSize: 18, fontWeight: medium);

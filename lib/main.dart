@@ -1,4 +1,5 @@
 import 'package:bwa_airplane/ui/pages/get_started.dart';
+import 'package:bwa_airplane/ui/pages/sign_up.dart';
 import 'package:bwa_airplane/ui/pages/splash.dart';
 import 'package:flutter/material.dart';
 
@@ -16,8 +17,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Airplane',
       routes: {
-        '/': (context) => const SplashPage(),
-        '/get-started': (context) => const GetStarted()
+        '/': (context) => const GetStarted(),
+        '/get-started': (context) => const GetStarted(),
+        '/sign-up': (context) => const SignUp(),
       },
     );
   }
