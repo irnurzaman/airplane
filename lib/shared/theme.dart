@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+// Margin and Radius
+double defaultMargin = 24.0;
+double defaultRadius = 17.0;
+
 // Color theme
 Color purple = const Color(0xff5C40CC);
 Color red = const Color(0xffEB70A5);

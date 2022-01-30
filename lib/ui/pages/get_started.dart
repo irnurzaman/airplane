@@ -48,7 +48,7 @@ class GetStarted extends StatelessWidget {
                     style: TextButton.styleFrom(
                       backgroundColor: purple,
                       shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(17),
+                        borderRadius: BorderRadius.circular(defaultRadius),
                       ),
                     ),
                     child: Text(
