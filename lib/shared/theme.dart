@@ -14,6 +14,7 @@ Color lightGrey = const Color(0xffDBD7EC);
 Color grey = const Color(0xff9698A9);
 Color orange = const Color(0xffFFA235);
 Color white = Colors.white;
+Color brokenWhite = const Color(0xffFAFAFA);
 
 // Font theme
 FontWeight light = FontWeight.w300;
